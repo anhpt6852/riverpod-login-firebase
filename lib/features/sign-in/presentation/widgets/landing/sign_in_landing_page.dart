@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_firebase_phone_auth_riverpod/app/common_widgets/buttons.dart';
-import 'package:flutter_firebase_phone_auth_riverpod/app/routing/app_router.dart';
+import 'package:flutter_firebase_phone_auth_riverpod/features/common_widgets/presentation/buttons.dart';
+import 'package:flutter_firebase_phone_auth_riverpod/routing/app_router.dart';
 
 class SignInLandingPage extends StatelessWidget {
   Future<void> _openSignup(BuildContext context) async {

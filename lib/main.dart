@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_firebase_phone_auth_riverpod/app/common_widgets/error_page.dart';
-import 'package:flutter_firebase_phone_auth_riverpod/app/home/home_page.dart';
-import 'package:flutter_firebase_phone_auth_riverpod/app/routing/app_router.dart';
-import 'package:flutter_firebase_phone_auth_riverpod/app/sign_in/sign_in_landing_page.dart';
+import 'package:flutter_firebase_phone_auth_riverpod/features/common_widgets/presentation/error_page.dart';
+import 'package:flutter_firebase_phone_auth_riverpod/features/home/presentation/home_page.dart';
+import 'package:flutter_firebase_phone_auth_riverpod/features/sign-in/presentation/widgets/landing/sign_in_landing_page.dart';
 import 'package:flutter_firebase_phone_auth_riverpod/global_providers.dart';
+import 'package:flutter_firebase_phone_auth_riverpod/routing/app_router.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:firebase_core/firebase_core.dart';
 

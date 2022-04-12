@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_firebase_phone_auth_riverpod/app/sign_in/sign_in_countries_page.dart';
-import 'package:flutter_firebase_phone_auth_riverpod/app/sign_in/sign_in_phone_page.dart';
-import 'package:flutter_firebase_phone_auth_riverpod/app/sign_in/sign_in_verification_page.dart';
+import 'package:flutter_firebase_phone_auth_riverpod/features/sign-in/presentation/sign_in_phone_page.dart';
+import 'package:flutter_firebase_phone_auth_riverpod/features/sign-in/presentation/widgets/sign_in_countries_page.dart';
+import 'package:flutter_firebase_phone_auth_riverpod/features/sign-in/presentation/widgets/verification/sign_in_verification_page.dart';
 import 'package:flutter_firebase_phone_auth_riverpod/main.dart';
 
 class AppRoutes {

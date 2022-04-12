@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_firebase_phone_auth_riverpod/app/common_widgets/buttons.dart';
+import 'package:flutter_firebase_phone_auth_riverpod/features/common_widgets/presentation/buttons.dart';
 import 'package:flutter_firebase_phone_auth_riverpod/global_providers.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 

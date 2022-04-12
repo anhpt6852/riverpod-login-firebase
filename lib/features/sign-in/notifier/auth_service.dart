@@ -1,6 +1,6 @@
 import 'dart:ui' as ui;
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter_firebase_phone_auth_riverpod/state/auth_state.dart';
+import 'package:flutter_firebase_phone_auth_riverpod/features/sign-in/state/auth_state.dart';
 import 'package:flutter_libphonenumber/flutter_libphonenumber.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 

@@ -1,7 +1,6 @@
 import 'dart:async';
-import 'package:flutter/foundation.dart';
-import 'package:flutter_firebase_phone_auth_riverpod/services/auth_service.dart';
-import 'package:flutter_firebase_phone_auth_riverpod/state/sign_in_state.dart';
+import 'package:flutter_firebase_phone_auth_riverpod/features/sign-in/notifier/auth_service.dart';
+import 'package:flutter_firebase_phone_auth_riverpod/features/sign-in/state/sign_in_state.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 final delayBeforeUserCanRequestNewCode = 30;
