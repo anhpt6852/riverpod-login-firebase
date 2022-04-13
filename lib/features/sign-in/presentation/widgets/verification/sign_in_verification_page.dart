@@ -43,7 +43,7 @@ class SignInVerificationPageBuilder extends ConsumerWidget {
       resendCode: () => model.resendCode(),
       verifyCode: (String smsCode) => model.verifyCode(smsCode),
       delayBeforeNewCode:
-          (countdown.data?.value ?? delayBeforeUserCanRequestNewCode),
+          (countdown.asData?.value ?? delayBeforeUserCanRequestNewCode),
       canSubmit: state.maybeWhen(
         canSubmit: () => true,
         orElse: () => false,

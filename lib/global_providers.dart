@@ -1,5 +1,5 @@
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter_firebase_phone_auth_riverpod/features/sign-in/notifier/auth_service.dart';
+import 'package:flutter_firebase_phone_auth_riverpod/features/sign-in/presentation/notifier/auth_service.dart';
 import 'package:flutter_firebase_phone_auth_riverpod/features/sign-in/state/auth_state.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
