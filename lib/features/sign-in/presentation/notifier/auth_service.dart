@@ -39,7 +39,7 @@ class AuthService extends StateNotifier<AuthState> {
           countries.where((item) => item.countryCode == langCode);
 
       if (filteredCountries.length == 0) {
-        filteredCountries = countries.where((item) => item.countryCode == 'US');
+        filteredCountries = countries.where((item) => item.countryCode == 'VN');
       }
       if (filteredCountries.length == 0) {
         throw Exception('Unable to find a default country!');
@@ -56,9 +56,9 @@ class AuthService extends StateNotifier<AuthState> {
   }
 
   Future<void> parsePhoneNumber(String inputText) async {
-    print("parsing $inputText // ${_selectedCountry.phoneCode}${inputText}");
+    print("parsing $inputText // ${_selectedCountry.phoneCode}$inputText");
     _phoneNumber = await FlutterLibphonenumber().parse(
-      "+${_selectedCountry.phoneCode}${inputText}",
+      "+${_selectedCountry.phoneCode}$inputText",
       region: _selectedCountry?.countryCode,
     );
     if (_phoneNumber['type'] != 'mobile') {
